@@ -1,0 +1,34 @@
+So to start off, the shell has simulated source files/executables. Some of these include shell and game, to access those and others which will be     listed below, you would follow the basic process of: file.child . To access the shell's settings, you would type something like shell.info or to access the game engine would be game.engine. To list some source to get you started, here are a few very basic ones (by the way,when using the commands, they must all be lowercase):
+
+-----------------------------------
+  Shell
+  .info - explains the shell's purpose
+  .say - prompts the shell to say something you choose
+  .close - obvious, closes the tab
+  .randnum - gives you a random decimal
+  .debug - a WIP bug scanner
+  -------------------------
+  Open
+ .githubrepos - opens this repository!
+ .unix - Doesn't do anything, just felt like adding for some reason.
+ ------------------
+ Game
+ .engine - Acceses the game engine, which I will explain later on in this file.
+ ------------------------------------
+ Read
+  .license - reads what you can do with this code
+  ----------------------------------------------
+  
+  
+  Thats all, now for one of the fun parts of the shell: The Game Engine!
+  ------------------------------------------------------------------------
+  
+    The game engine, as mentioned above, can be accesed with the game.engine command. Features include naming your game and making characters, with dialouge and playing soon to be implemented! Commands:
+    ----------------------
+    Character
+     character.create - makes a character you can decide the attributes of.
+     ----------------------
+    Game
+     game.rename - lets you rename the game!
+     ------------------------
+     
