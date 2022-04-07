@@ -1,1 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <style>
+    h2 {
+    text-align:center;
+    color:white
+    }
+    p {
+    text-align:center;
+    color:white;
+    }
+    </style>
+    </head>
+    <body style = "background-color:black">
+    <h2>Welcome to the Doomsday Shell</h2>
+    <p>Click the button below marked "Shell" to start using it</p>
+    <div style = "text-align:center">
+    <button style = "button" onclick = "Main()">Shell</button>
 
+ <!--Shell commands and other things-->
+    <script>
+    function Main() {
+   var input = prompt("Enter commands here")
+    if(input == ".test"){
+     alert("Hello,shell!");
+     Main()
+     }
+     if(input == "Open.githubrepo"){
+     window.open("https://github.com/Doomsdaybear/DoomShell/tree/main");
+     Main()
+     }
+     if(input == ".say") {
+     var say = prompt("What should I say?");
+     alert(say);
+     Main()
+     }
+    }
+    </script>
