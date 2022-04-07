@@ -4,11 +4,11 @@
     <style>
     h2 {
     text-align:center;
-    color:white
+    color:green;
     }
     p {
     text-align:center;
-    color:white;
+    color:green;
     }
     </style>
     </head>
@@ -17,6 +17,8 @@
     <p>Click the button below marked "Shell" to start using it</p>
     <div style = "text-align:center">
     <button style = "button" onclick = "Main()">Shell</button>
+    </div>
+    <p style = "color:grey">Copyright Doomsdaybear 2022. This is a parody of Unix, don't sue me.</p>
 
  <!--Shell commands and other things-->
     <script>
@@ -34,6 +36,54 @@
      var say = prompt("What should I say?");
      alert(say);
      Main()
+     }
+     if(input == "read.license"){
+     alert("There is no license on this project, use the code as you will");
+     Main()
+     }
+     if(input == ".close"){
+     alert("Exiting shell, have a nice day!");
+     window.close()
+     }
+     if(input == ".randnum"){
+     alert(Math.random());
+     Main()
+     }
+     if(input == "open.unix"){
+     alert("Your half way home, buddy");
+     Main()
+     }
+     if(input == "shell.info"){
+     alert("This shell is a parody of the Unix operating system.");
+     alert("Open source,don't worry.");
+     Main()
+     }
+     if(input == "shell.debug"){
+     alert("No bugs found, report anybugs you find in the issues column of the GitHub page.");
+     Main()
+     }
+     if(input == "game.engine"){
+     var name = "My test game"
+     alert("Welcome to DoomShell's native game engine! For a tutorial, go to the GitHub readme!");
+     function CommandReturn() {
+     prompt("Enter desired action here")
+     }
+     var cmds = prompt("Enter desired action here")
+     if(cmds == "character.create"){
+     var name = prompt("What is their name?");
+     var gender = prompt("What is the gender?");
+     var species = prompt("What is their species?");
+     var age = prompt("What is their age?");
+     var alignment = prompt("are they good,bad,or neutral?");
+     var protag = prompt("Are they the player character,antagonist, or side character?");
+     CommandReturn()
+     }
+     if(cmds == "game.rename"){
+     var rename = prompt("What would you like to rename the game? Current name: " + name)
+     rename = name
+     
+     }
+     CommandReturn()
      }
     }
     </script>
