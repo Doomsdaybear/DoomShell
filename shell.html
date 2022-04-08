@@ -46,7 +46,7 @@
      }
      if(input == "shell.close"){
      alert("Exiting shell, have a nice day!");
-     window.close()
+     window.close();
      }
      if(input == "shell.randnum"){
      alert(Math.random());
@@ -93,10 +93,11 @@
      CommandReturn()
      }
      if(input == "dudo install_trail"){
-     var trail_installed = "true"
+     var trail_installed = "true";
      alert("The Michigan Trail is installing...");
-     alert("The Michigan Trail is installed!")
-     }
+     alert("The Michigan Trail is installed!");
+     Main()
+   }
      if(input == "run trail"){
       if(trail_installed == "true"){
        alert("Welcome to the Michigan Trail!");
@@ -151,10 +152,12 @@
             if(skill_points = 0){
             alert("Ok!, we can go into the adventure now!")
             }
+            Main()
       }
      }
      if(input == "Open.coolestpersonever"){
-     window.open('https://github.com/Doomsdaybear')
+     window.open('https://github.com/Doomsdaybear');
+     CommandReturn()
      }
     }
     </script>
