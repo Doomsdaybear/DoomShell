@@ -11,6 +11,7 @@ So to start off, the shell has simulated source files/executables. Some of these
   Open
  .githubrepos - opens this repository!
  .unix - Doesn't do anything, just felt like adding for some reason.
+ .coolestpersonever - Yours truly!
  ------------------
  Game
  .engine - Acceses the game engine, which I will explain later on in this file.
@@ -18,6 +19,8 @@ So to start off, the shell has simulated source files/executables. Some of these
  Read
   .license - reads what you can do with this code
   ----------------------------------------------
+  Dudo
+   install_trail(no period behined install) - installs Michigan Trail
   
   
   Thats all, now for one of the fun parts of the shell: The Game Engine!
@@ -33,4 +36,5 @@ So to start off, the shell has simulated source files/executables. Some of these
      .nameshow - show's games current name
      (engine is a proof of concept and is not perfect, report bugs in the issue section!)
      ------------------------
+     
      
