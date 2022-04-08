@@ -28,7 +28,9 @@ So to start off, the shell has simulated source files/executables. Some of these
     Character
      character.create - makes a character you can decide the attributes of.
      ----------------------
-    Game
-     game.rename - lets you rename the game!
+    Game (expanded)
+     .rename - lets you rename the game!
+     .nameshow - show's games current name
+     (engine is a proof of concept and is not perfect, report bugs in the issue section!)
      ------------------------
      
